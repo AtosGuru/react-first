@@ -1,0 +1,92 @@
+body {
+  padding-top:50px;
+}
+.main-container {
+  width: 70%;
+  margin:auto;
+}
+.container {
+  width: 100%;
+  height: 550px;
+  /* background-color: lightgray; */
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  margin:auto;
+  padding:20px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.a-btn {
+  width: 100px;
+}
+#tab_1 img {
+  /* border-radius: 50%; */
+  width: 100%;
+  height:100%;
+  cursor: pointer;
+}
+#tab_1 img:hover {
+  border: 5px solid #0ea5e9;
+}
+#tab_1 img.active {
+  border: 5px solid #0ea5e9;
+}
+section {
+  width: 100%;
+}
+.carousel-bullet.active {
+  color:#0ea5e9;
+}
+.a-ol {
+  position: absolute;
+  bottom: 10px;
+}
+.a-form {
+  width: 300px;
+  margin:auto;
+}
+.a-next-btn {
+  position:absolute;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+}
+.a-see-btn {
+  position:absolute;
+  bottom: 30px;
+  right: 140px;
+  z-index: 99;
+}
+.table {
+  width: 400px;
+  margin:auto;
+}
+thead th {
+  color:#0ea5e9;
+}
+ol {
+  z-index: 1;
+}
+
+
+body {
+  /* background: url('../img/back.png');
+  background-size: 100% 100%;
+  background-color: rgba(0,0,0,0.4); */
+  background-color:rgb(5, 3, 18);
+}
+.a-collage-div {
+  width:400px;
+  margin:auto;
+  height:400px;
+  /* background:black; */
+}
+.a-collage-div div {
+  background: skyblue;
+}
+
+/* darkmode */
+label, td {
+  color: white;
+}
